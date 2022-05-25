@@ -7,16 +7,20 @@ function Navbar() {
       <nav>
         <ul className="navbar">
           <li>
-            <Link to="/">
+            <Link to="/" style={{ textDecoration: "none" }}>
               <span> Home</span>
             </Link>
           </li>
           <li>
-            <Link to="/Student">Student</Link>
+            <Link to="/Student" style={{ textDecoration: "none" }}>
+              Student
+            </Link>
           </li>
 
           <li>
-            <Link to="/Contact">Contact Us</Link>
+            <Link to="/Contact" style={{ textDecoration: "none" }}>
+              Contact Us
+            </Link>
           </li>
         </ul>
       </nav>
